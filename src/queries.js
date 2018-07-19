@@ -1,24 +1,4 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import db from "./queries/db";
-
 
 function getAllPuppies(req, res, next) {
   db.any("select * from pups")
